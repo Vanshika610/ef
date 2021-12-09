@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>simple quiz 2</title>
+    <style>
+
+        .container {
+            border: 3px solid black;
+            border-radius: 10px;
+            width: 60%;
+            padding: 20px;
+            background-color: lightblue;
+            display: none;
+        }
+
+        button {
+            margin-top: 10px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <form name="myform">
+        Q2 The thing which i like to do most? ?<br>
+        <input type="radio" name="q1" value="a">Playing<br>
+        <input type="radio" name="q1"value="b">Talking<br>
+        <input type="radio" name="q1" value="c">Sleeping<br>
+        <input type="radio" name="q1" value="d">None of the above<br>
+        <input type="button" value="submit"  onclick="result()">
+    </form>
+<script>
+  function result(){
+    var count=0;
+    var q1=document.myform.q1.value;
+    if (q1=="c"){
+        alert("Tane koi kaam aapvu aetle badhu risk ma nakhvu brbr che....hahahaha..🤣🤣 just kidding..You are the one to whom i can freely hand over my all kind of stuff to solve.🥰😘  ")
+    }
+    else{
+      alert("oops  wrong ans try again!! ")
+    }
+
+  }
+
+</script>
+</<body>
+</html>
